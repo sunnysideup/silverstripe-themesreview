@@ -1,0 +1,147 @@
+{
+    "name": "Silverstripe Themes",
+    "description": "Project created on ssmods.com",
+    "require": {
+        "silverstripe/framework":                                      "3.*",
+        "silverstripe/cms":                                            "3.*",
+        
+        "alialamshahi/tino":                                           "*",
+        
+        "burnbright/bootstrap":                                        "*",
+        
+        "burnbright/silverstripe-bootstrap":                           "*",
+        
+        "burnbright/silverstripe-bootstrap-shop":                      "*",
+        
+        "burnbright/silverstripe-simple-shop":                         "*",
+        
+        "cumquat/liquidbootstrap":                                     "*",
+        
+        "darianno/ss-bs":                                              "*",
+        
+        "entidi/silverstrap":                                          "*",
+        
+        "entidi/silverstrap-cerulean":                                 "*",
+        
+        "gpmd/ss-bootstrap":                                           "*",
+        
+        "i-lateral/silverstripe-commerce-theme":                       "*",
+        
+        "i-lateral/silverstripe-themes-kube":                          "*",
+        
+        "i-lateral/silverstripe-themes-kube-commerce":                 "*",
+        
+        "jeffwhitfield/silverstripe-bootstrap-theme":                  "*",
+        
+        "maldicore-themes/aidp":                                       "*",
+        
+        "mandrew/hardyakka":                                           "*",
+        
+        "martinduparc/silverstripe-empty-theme":                       "*",
+        
+        "mattclegg/silverstripe-bootstrap-3":                          "*",
+        
+        "michaeljjames/silverstripe-bootstrap-theme":                  "*",
+        
+        "micmania1/simple_blog":                                       "*",
+        
+        "mouseketeers/silverstripe-foundation":                        "*",
+        
+        "nguyer/cwp-gumby-theme":                                      "*",
+        
+        "nickjacobs/silverstripe-base":                                "*",
+        
+        "phpboyscout/silverstripe-scouts-theme":                       "*",
+        
+        "priithansen/silverstripe-foundation-boilerplate":             "*",
+        
+        "psukhedelos/silverstripe-pocketwatch-theme":                  "*",
+        
+        "purezero/module_bootstrap":                                   "*",
+        
+        "rywa/silverstripe-foundation":                                "*",
+        
+        "rywa/silverstripe-skeleton-theme":                            "*",
+        
+        "sajansharmanz/silverstripe-simple-remastered":                "*",
+        
+        "silverstripe-australia/minimalist-theme":                     "*",
+        
+        "silverstripe-themes/blackcandy":                              "*",
+        
+        "silverstripe-themes/blackcandymobile":                        "*",
+        
+        "silverstripe-themes/jquerymobile":                            "*",
+        
+        "silverstripe-themes/module_bootstrap":                        "*",
+        
+        "silverstripe-themes/simple":                                  "*",
+        
+        "silverstripe-themes/simple_blog":                             "*",
+        
+        "silverstripe-themes/simple_forum":                            "*",
+        
+        "silverstripe/bootstrap-base":                                 "*",
+        
+        "soulrolll/bootstarter":                                       "*",
+        
+        "suhongyang/silverstripe-material-ui":                         "*",
+        
+        "sunnysideup/themes_ssu_flava":                                "*",
+        
+        "sunnysideup/themes_ssu_flava_main":                           "*",
+        
+        "sunnysideup/themes_ssu_flava_main_cms":                       "*",
+        
+        "sunnysideup/themes_ssu_flava_main_ecommerce":                 "*",
+        
+        "sunnysideup/themes_ssu_flava_main_ecommerce_product_variation":"*",
+        
+        "sunnysideup/themes_ssu_flava_main_webportfolio":              "*",
+        
+        "sunnysideup/themes_ssu_flava_simple":                         "*",
+        
+        "sunnysideup/themes_ssu_flava_simple_ecommerce":               "*",
+        
+        "titledk/cloudy":                                              "*",
+        
+        "tractorcow/silverstripe-metro":                               "*",
+        
+        "tractorcow/silverstripe-metro-blog":                          "*",
+        
+        "tractorcow/silverstripe-metro-comments":                      "*",
+        
+        "tractorcow/silverstripe-metro-memberprofiles":                "*",
+        
+        "undefinedoffset/silverstripe-codebank-theme":                 "*",
+        
+        "xplore/bootstripe":                                           "*",
+        
+        "michaeljjames/silverstripe-cleanblog":                        "*",
+        
+        "adrexia/silverstripe-pure":                                   "*",
+        
+        "qunabu/silverstripe-theme":                                   "*",
+        
+        "iqnection-themes/mysite":                                     "*",
+        
+        "adrexia/silverstripe-gumby-theme":                            "*",
+        
+        "silverstripe-themes/express":                                 "*"
+        
+    },
+    "require-dev": {
+        "gdmedia/ss-auto-git-ignore": "*"
+    },
+    "scripts": {
+        "post-install-cmd" : [
+            "php framework/cli-script.php dev/build flush=1"
+        ],
+        "post-update-cmd" : [
+            "php framework/cli-script.php dev/build flush=1",
+            "GDM\\SSAutoGitIgnore\\UpdateScript::Go0"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
