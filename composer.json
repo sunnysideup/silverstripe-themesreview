@@ -88,5 +88,6 @@
         "Silverstripe-CMS",
         "CMS",
         "Silverstripe"
-    ]
+    ],
+    "license": "BSD-3-Clause"
 }
