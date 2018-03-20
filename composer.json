@@ -2,8 +2,8 @@
     "name": "Silverstripe Themes",
     "description": "Project created on ssmods.com",
     "require": {
-        "silverstripe/framework": "~3.1",
-        "silverstripe/cms": "~3.1",
+        "silverstripe/framework": "~3.6",
+        "silverstripe/cms": "~3.6",
         "alialamshahi/tino": "*",
         "burnbright/bootstrap": "*",
         "burnbright/silverstripe-bootstrap": "*",
